@@ -1,0 +1,624 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    width: 100%;
+   margin: 0px;
+   padding: 0px;
+}
+.start
+{
+    position: sticky;
+    top: 0;
+}
+.sec1
+{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(112, 138, 146);
+    text-align: center;
+    /* position: sticky; */
+    /* top: 0; */
+}
+.sec1 h3{
+    padding-top: 20px;
+}
+.sec2
+{
+    background-color: bisque;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    
+}
+.br{
+    margin-left: 50px;
+    float: left;
+    padding-top: 20px;
+}
+.br a{
+    text-decoration: none;
+    color: black;
+}
+.ls
+{
+    padding-top: 30px;
+}
+.ls ul{
+    display: flex;
+    list-style: none;
+}
+.ls li{
+    margin-left: 30px;
+}
+.ls a{
+    text-decoration: none;
+    color: black;
+}
+.ls a:hover
+{
+    color: green;
+}
+.ls i{
+    margin-left: 450px;
+    width: 30px;
+}
+li button
+{
+    margin-left: 40px;
+    width: 150px;
+    height: 40px;
+    margin-top: -30px;
+    background-color: black;
+    color: white;
+}
+li button:hover
+{
+    background: green;
+    /* transform: scale(0.9); */
+}
+.sec3
+{
+    width: 100%;
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/cup-coffee-on-table-cafe-600nw-145972004.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*background-attachment: fixed; */
+    margin-top: -100px;
+}  
+
+.sec3 h1{
+    font-size:400%;
+    color: white;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.sec4
+{
+    background:whitesmoke;
+    padding-top: 100px;
+    padding-left: 400px;
+    padding-bottom: 100px;
+    font-size: 100%;
+}
+.sec5
+{
+    background-color: bisque;
+    height: 600px;
+    width: 100%;
+    margin-top: -20px;
+}
+.sec5 h1{
+    text-align: center;
+    padding-top: 50px;
+}
+.img1{
+    float: left;
+    margin-left: 60px;
+    width: 25%;
+    margin-top: 20px;
+    
+}
+.img1 img{
+    width: 100%;
+    height: 300px;
+}
+  
+.img2{
+    margin-left: 40px; 
+    float: left;
+    width: 25%;
+    margin-top: 20px;
+}
+.img2 img
+{
+    width: 100%;
+    height: 300px;  
+}
+.img3
+{
+    margin-left: 780px;
+    margin-top: 20px;
+}
+.img3 img
+{
+   
+    width: 70%;
+    height: 300px;
+}
+.sec5 h2,p{
+    /* margin-left: 10px; */
+    font-size: 20px;
+}
+.sec5 img:hover
+{
+    border-radius: 2px;
+    transform: scale(1.1);
+}
+.sec6  img
+{
+    width: 100%;
+}
+.sec7 h1
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.d1
+{
+    float: left;
+
+    margin-left: 20px;
+}
+.d1 img
+{
+    width: 100%;
+    height: 300px;
+ 
+}
+.d2
+{
+    float: left;
+    margin-left: 20px;
+    
+}
+.d2 img
+{
+    width: 100%;
+    height: 300px;
+ 
+}
+.d3
+{
+    float: left;
+    margin-left: 20px;
+    
+}
+.d3 img
+{
+    width: 100%;
+    height: 300px;
+ 
+}
+.d4
+{
+    margin-left: 980px;
+    
+}
+.d4 img
+{
+    width: 100%;
+    height: 300px;
+ 
+}
+.bu  button 
+{
+    width: 25%;
+    height: 50px;
+    margin-left: 500px;
+    margin-top: 30px;
+    
+   
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.bu button:hover
+{
+    background: green;
+    color: black;
+
+}
+.bu a:hover
+{
+    color: white;
+}
+.sec8
+{
+    background-color: rgb(112, 138, 146);
+    margin-top: 30px;
+ }
+.det
+{
+    margin-left: 300px;
+    padding-top: 50px;
+    float: left;
+}
+.ails
+{
+    margin-left: 800px;
+    padding-top: 50px;
+}
+.ails input
+{
+    text-decoration: none;
+    width: 250px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid red;
+    height: 50px;
+}
+.ails button
+{
+    width: 30%;
+    height: 55px;
+}
+.ails button:hover
+{
+    background: green;
+}
+.foot
+{
+    display: flex;
+    list-style: none;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+.foot li{
+    margin-left: 30px;
+}
+.end p{
+    margin-left: 380px;
+}
+@media Screen and (max-width:425px)
+{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .main
+    {
+        max-width: 960px;
+        margin: 0 auto;
+        overflow-x: hidden;
+     }       
+    .br{
+        margin-left: 0px;
+    }
+    .ls li{
+        margin-left: 5px;
+    }
+    .ls i{
+        margin-left: 0px;
+        /* width: 5px; */
+        padding-top: -20px;
+
+    }
+    li button
+    {
+        margin-left: 0px;
+        width: 40px;
+        /* margin-top: 30px; */
+      
+    }
+    .sec3 h1{
+        font-size:150%;
+
+    }
+    .sec4
+    {
+
+    padding-left: 100px;
+    font-size: 55%;
+    margin-top: -320px;
+    }
+    .img1{
+        margin-left: 20px;
+        width: 25%;
+        padding-top: 50px;
+        
+    }
+    .img1 img{
+        width: 100%;
+        height: 150px;
+
+    } 
+    .img2{
+        margin-left: 20px; 
+        float: left;
+        width: 25%;
+        padding-top: 50px;
+    }
+    .img2 img
+    {
+    width: 100%;
+    height: 150px;
+ 
+    }   
+    .img3
+    {
+    margin-left: 280px;
+    margin-top: 70px;
+
+    }   
+    .img3 img
+    {
+   
+    width: 90%;
+    height: 150px;
+    }
+    .sec5 h2,p{
+        /* margin-left: 10px; */
+        font-size: 15px;
+    }
+    d1
+    {
+        margin-left: 10px;
+        float: left;
+        padding-top: 50px;
+    }
+    .d1 img
+    {
+    width: 100%;
+    height: 200px;
+ 
+    }
+    .d2
+    {
+
+    margin-left: 20px;
+    
+    }
+    .d2 img
+    {
+    width: 100%;
+    height: 200px;
+ 
+    }
+    .d3
+    {
+
+    
+    margin-left: 20px;
+    
+    }
+    .d3 img
+    {
+    width: 100%;
+    height: 200px;
+ 
+    }
+    .d4
+    {
+    margin-left: 10px;
+    
+    }
+    .d4 img
+    {
+    width: 50%;
+    height: 200px;
+ 
+    }   
+        .det
+    {
+        margin-left: 30px;
+    }
+    .ails
+    {   
+        margin-left: 270px;
+    }
+    .ails input
+    {
+    width: 150px;
+    
+    }
+    .ails button
+    {
+    width: 30%;
+    height: 55px;
+    }   
+    .foot
+    {
+    margin-left: 0px;
+    }
+    .foot li{
+    margin-left: 10px;
+    }
+    .end p{
+        margin-left: 100px;
+    }    
+
+
+}
+    
+@media screen and (max-width:426px) and (min-width:768px)
+{
+    .br{
+        margin-left: 30px; 
+    }
+    .ls ul {
+        margin-left: 0px;
+    }
+    .ls li{
+        margin-left: 50px;
+    }
+    .ls i{
+        margin-left: 0px;
+        width: 20px;
+    }
+    li button
+    {
+    margin-left: 0px;
+    width: 100px;
+   
+    }
+
+
+
+}
+
+
+/* @media screen and (min-width:769px)
+{
+    .br{
+        margin-left: 0px;
+    }
+    .ls ul {
+        margin-left: -20px;
+    }
+    .ls li{
+        margin-left: 45px;
+    }
+    .ls i{
+        margin-left: 0px;
+        width: 10px;
+    }
+    li button
+{
+    margin-left: 0px;
+    width: 90px;
+    height: 40px;
+}
+.sec3 h1{
+    font-size:150%;
+}
+.sec4
+{
+    background:whitesmoke;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-bottom: 100px;
+    font-size: 80%;
+
+}
+.img1{
+    float: left;
+    margin-left: 20px;
+    width: 30%;
+    
+}
+ 
+.img2{
+    margin-left: 20px; 
+    float: left;
+    width: 30%;
+
+}
+.img3
+{
+    margin-left: 500px;
+    width: 40%;
+
+}
+.sec5 h2,p{
+    margin-left: 10px; 
+    font-size: 15px;
+}
+.d1
+{
+    float: left;
+
+    margin-left: 30px;
+}
+.d1 img
+{
+    width: 100%;
+     height: 300px; 
+ 
+}
+.d2
+{
+    float: left;
+    margin-left: 40px;
+    
+}
+.d2 img
+{
+    width: 100%;
+     height: 300px; 
+ 
+}
+.d3
+{
+    float: left;
+    margin-left:30px;
+    
+}
+.d3 img
+{
+    width: 100%;
+     height: 00px; 
+ 
+}
+.d4
+{
+    margin-left: 370px;
+    
+}
+.d4 img
+{
+    width: 80%;
+    height: 300px; 
+ 
+}
+.bu  button 
+{
+    margin-left: 280px;
+    
+   
+}
+.det
+{
+    margin-left: 100px;
+    float: left;
+}
+.ails
+{
+    margin-left: 450px;
+    padding-top: 50px;
+}
+.ails input
+{
+    width: 150px;
+}
+.ails button
+{
+    width: 30%;
+    height: 55px;
+}
+.foot
+{
+    margin-left: 70px;
+}
+.foot li{
+    margin-left: 10px;
+}
+.end p{
+    margin-left: 200px;
+}
+
+} 
+@media screen and(min-width:769px) and (max-width:1024)
+{
+    
+} */
+
